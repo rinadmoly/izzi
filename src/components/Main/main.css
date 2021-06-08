@@ -1,0 +1,35 @@
+.cards_section a{
+    padding: 10px 20px;
+    color: #fff;
+    margin: auto;
+    background-color: #6B3BA8;
+    border-radius: 12px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.view_all{
+    width: fit-content;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+
+
+
+.banner{
+    width: 100%;
+    border-radius: 12px;
+}
+.banner img{
+    width: 100%;
+}
+.banner_cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}

@@ -1,0 +1,37 @@
+.number_comfirm h1{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.number_comfirm p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.number_comfirm input{
+    box-sizing: border-box;
+    width: 316px;
+    padding: 12px 16px;
+    font-size: 14px;
+    border: 1px solid #F7F1FE;
+    border-radius: 12px;
+    margin-top: 24px;
+}
+.number_comfirm a{
+    color: blue;
+}
+.change_num, .number_comfirm{
+    width: 316px;
+}
+.resend_code{
+    margin-top: 24px;
+}
+.resend_code p{
+    text-align: center;
+    color: #8C7AA4;
+    font-size: 14px;
+    font-weight: normal;
+}
+.resend_code button{
+    margin-top: 2px;
+}

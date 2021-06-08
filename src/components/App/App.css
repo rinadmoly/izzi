@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    padding: 0 15px;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+#log_in{
+    background: #E5E5E5;
+    padding-top: 60px;
+    height: 60vh;
+}
+.log_in{
+    width: fit-content;
+    margin: auto;
+}
+.log_in p{
+    font-weight: bold;
+    font-size: 20px
+}
+.log_in button{
+    padding: 12px 138px;
+    border: none;
+    background: #6B3BA8;
+    border-radius: 12px;
+    margin-top: 12px;
+    color: white;
+}
+.log_in .sign_up{
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    color: #6B3BA8;
+}

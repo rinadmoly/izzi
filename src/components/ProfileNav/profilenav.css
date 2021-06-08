@@ -1,0 +1,28 @@
+.profile_nav{
+    padding: 24px 16px;
+    width: 204px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    height: fit-content;
+    margin-right: 22px;
+}
+.profile_nav_link{
+    position: relative;
+}
+.profile_nav_link span{
+    font-size: 25px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    color: #D3D3D3;
+}
+.profile_nav_link p{
+    margin-left: 30px;
+    color: black;
+}
+.profile_nav .logOut{
+    padding-top: 24px;
+    margin-top: 21px;
+    border-top: 1px solid rgba(247, 241, 254, 1);
+    color: red;
+}

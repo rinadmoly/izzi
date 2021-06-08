@@ -1,0 +1,46 @@
+.my_sale > p{
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #F7F1FE;
+    padding-bottom: 23px;
+    margin-bottom: 18px;
+}
+.sale_card{
+    border: 1px solid #F7F1FE;
+    padding:10px 20px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+.sale_card+ .sale_card{
+    margin-top: 12px;
+}
+.sale_card_change{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.sale_title, .sale_quantity{
+    font-weight: bold;
+    font-size: 15px;
+}
+.sale_card_quantity p{
+    height: min-content;
+    padding: 5px 74px;
+    border-left: 1px solid #F7F1FE;
+    border-right: 1px solid #F7F1FE;   
+}
+.sale_card_status button{
+    border: none;
+    border-radius: 12px;
+    padding: 11px 20px;
+    color: white;
+    background-color: #6533A5;
+}
+.sale_header{
+    display: flex;
+}
+.sale_title, .sale_card_name{
+    width: 60%;
+}

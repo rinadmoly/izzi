@@ -1,0 +1,23 @@
+
+/*********************************************************
+**********************************************************
+**********************************************************/
+#partner_panel{
+    background-color: #E5E5E5;
+    padding-bottom: 30vh;
+}
+.partner_panel{
+    padding-top: 24px;
+    display: flex;
+}
+
+.profile_wrapper{
+    width: 922px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 24px 24px 24px 24px;
+}
+.partner_form_list{
+    display: flex;
+}
+

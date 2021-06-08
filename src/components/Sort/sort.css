@@ -1,0 +1,41 @@
+.sort {
+    position: relative;
+}
+.sort-label {
+    display: flex;
+    align-items: center;
+}
+.sort-label svg {
+    margin-right: 8px;
+}
+.sort-label b {
+    margin-right: 8px;
+}
+.sort-label span {
+    cursor: pointer;
+}
+.sort-popup {
+    position: absolute;
+    right: 0;
+    z-index: 99 ;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 10px 0;
+    width: 160px;
+}
+.sort-popup ul {
+    overflow: hidden;
+}
+.sort-popup ul li {
+    padding: 12px 20px;
+    cursor: pointer;
+}
+.sort-popup ul li.active, .sort-popup ul li:hover {
+    background: rgba(254, 95, 30, 0.05);
+}
+.sort-popup ul li.active {
+    font-weight: bold;
+}

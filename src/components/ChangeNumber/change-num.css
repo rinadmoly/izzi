@@ -1,0 +1,17 @@
+.change_num button, .number_comfirm button{
+    width: 316px;
+    padding: 12px 0;
+    border: none;
+    margin-top: 12px;
+    color: #fff;
+    border-radius: 12px;
+    background-color: #6B3BA8;
+}
+.change_num span{
+    color: #8C7AA4;
+}
+.change_num p{
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 24px;
+}

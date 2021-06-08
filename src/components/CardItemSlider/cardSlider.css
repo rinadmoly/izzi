@@ -1,0 +1,17 @@
+@import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.card_slider{
+    margin: 24px 0;
+}
+.image-gallery-fullscreen-button, .image-gallery-play-button{
+    display: none;
+}
+.image-gallery-left-nav .image-gallery-svg, .image-gallery-right-nav .image-gallery-svg{
+    height: 60px;
+}
+.image-gallery-index{
+    border-radius: 12px;
+    top: 85%;
+    right: 45%;
+    background-color: rgb(0, 0, 0, 0,9);
+}

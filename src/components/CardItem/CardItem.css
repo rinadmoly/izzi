@@ -1,0 +1,116 @@
+.card_item{
+    display: flex;
+}
+.card_description{
+    padding: 0;
+}
+
+.card_description, .card_info{
+    width: 50%;
+}
+
+.card_info{
+    margin-left: 32px;
+}
+.card_info_header{
+    display:flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.card_info_header p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.card_info_content span{
+    font-size: 15px;
+    color: #98949E;
+}
+.card_info_content p{
+    font-size: 16px;
+}
+.price_block{
+    background-color: #F7F7F7;
+    width: fit-content;
+    border-radius: 12px;
+    padding: 8px 20px;
+    display: flex;
+    align-items: baseline;
+    margin: 36px 0;
+}
+.price_block p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4F2782;
+    margin: 0;
+}
+.price_block span{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: line-through;
+    color: #98949E;
+    margin-left: 16px;
+}
+.btn_buy{
+    display: flex;
+    margin-bottom: 36px;
+}
+.btn_buy button:first-child{
+    background: #6B3BA8;
+    border-radius: 12px;
+    padding: 15px 97px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.card_item_bookmark{
+    background: #F1EAFF;
+    border-radius: 12px;
+    border: none;
+    padding: 17px;
+    margin-left: 12px;
+    font-size: 19px;
+    color: #6B3BA8;
+}
+
+
+.coupon_date p{
+    font-size: 15px;
+    margin-bottom: 4px;
+    color: #98949E;
+}
+.coupon_date span{
+    font-weight: 600;
+    font-style: 16px;
+    color: #181818;
+}
+.coupon_date span+span{
+    margin-left: 24px;
+}
+.quantity_coupon p, .dead_coupon p{
+    margin: 0;
+    padding: 0;
+    margin-left: 16px;
+}
+.quantity_coupon, .dead_coupon{
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    font-size: 15px;
+    color: #8C7AA4;
+}
+.share{
+    margin-top: 37px;
+    color: #8C7AA4;
+}
+.share_links{
+    font-size: 28px;
+    display: flex;
+}
+.share_links div+div{
+    margin-left: 15px;
+}
+
+.like_coupon{
+    display: flex;
+}
